@@ -27,14 +27,28 @@ In p5.js, mouseX and mouseY track the cursor position in real time. By using the
 
 ---
 
+## Example Implementation
+
+![example implementation](https://happycoding.io/tutorials/processing/images/input-5.gif)
+
+---
+
 ## Example Code
 
 ```javascript
 function setup() {
   createCanvas(300, 300);
+  background(32);
 }
 
 function draw() {
-  background(32);
+  if (mouseIsPressed) {
+    fill(0, 255, 255);
+    circle(mouseX, mouseY, 25);
+  }
+}
+
+function mouseClicked() {
+  fill(0, 255, 0);
   circle(mouseX, mouseY, 50);
 }
