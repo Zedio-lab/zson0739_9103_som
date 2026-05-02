@@ -17,8 +17,13 @@ In p5.js, mouseX and mouseY track the cursor position in real time. By using the
 
 ---
 
-## Example Image
-![example](https://happycoding.io/tutorials/processing/images/input-1.gif)
+## Example Images
+
+### Mouse Interaction Example 1
+![example 1](https://happycoding.io/tutorials/processing/images/input-1.gif)
+
+### Mouse Interaction Example 2
+![example 2](https://happycoding.io/tutorials/processing/images/input-3.gif)
 
 ---
 
